@@ -32,7 +32,15 @@ body{
 }
 
 
+/* Text and button*/
+.card-button{
+    font-weight: bold;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    padding: 4px 12px;
+    width: fit-content;
 
+}
 .card-text{
    display: flex;
    flex-direction: column;
@@ -45,6 +53,8 @@ body{
     color: gray;
     font-weight: 500;
 }
+
+
 
 
 .card-user{
