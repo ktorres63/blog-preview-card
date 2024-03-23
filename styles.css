@@ -21,5 +21,35 @@ body{
 }
 #card-container{
     background-color: white;
-    width: 500px;
+    width: 384px;
+    border-radius: 20px;
+    padding: 24px;
+}
+.img-container img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+
+
+.card-text{
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+}
+.publication-date{
+    font-weight: 400;
+}
+.card-description{
+    color: gray;
+    font-weight: 500;
+}
+
+
+.card-user{
+    display: flex;
+}
+.user-name{
+    font-weight: bold;
 }
