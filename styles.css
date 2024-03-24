@@ -24,6 +24,7 @@ body{
     width: 384px;
     border-radius: 20px;
     padding: 24px;
+    border: 2px solid black;
 }
 .img-container img{
     width: 100%;
@@ -38,13 +39,14 @@ body{
     background-color: hsl(47, 88%, 63%);
     border-radius: 4px;
     padding: 4px 12px;
-    width: fit-content;
+    align-self: flex-start;
 
 }
 .card-text{
    display: flex;
    flex-direction: column;
    gap: 12px;
+   margin-bottom: 24px;
 }
 .publication-date{
     font-weight: 400;
@@ -59,7 +61,17 @@ body{
 
 .card-user{
     display: flex;
+    align-items: center;
+    height: 32px;
+    gap: 12px;
+}
+.card-user img{
+    height: 100%;
 }
 .user-name{
     font-weight: bold;
+} 
+
+a {
+    text-decoration: none;
 }
