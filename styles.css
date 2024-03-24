@@ -2,76 +2,77 @@
   box-sizing: border-box;
   font-family: "Figtree", sans-serif;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 p {
   font-size: 16px;
 }
-body{
-    height: 100%;
-    background-color:hsl(47, 88%, 63%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+body {
+  height: 100%;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-#card-container{
-    background-color: white;
-    width: 384px;
-    border-radius: 20px;
-    padding: 24px;
-    border: 2px solid black;
+#card-container {
+  background-color: white;
+  width: 384px;
+  border-radius: 20px;
+  padding: 24px;
+  border: 2px solid black;
+  box-shadow: 8px 8px 0px black;
+  margin-bottom: 10px;
 }
-.img-container img{
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 24px;
+.img-container img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 24px;
 }
-
 
 /* Text and button*/
-.card-button{
-    font-weight: bold;
-    background-color: hsl(47, 88%, 63%);
-    border-radius: 4px;
-    padding: 4px 12px;
-    align-self: flex-start;
-
+.card-button {
+  font-weight: bold;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 4px;
+  padding: 4px 12px;
+  align-self: flex-start;
 }
-.card-text{
-   display: flex;
-   flex-direction: column;
-   gap: 12px;
-   margin-bottom: 24px;
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
 }
-.publication-date{
-    font-weight: 400;
+.publication-date {
+  font-weight: 400;
 }
-.card-description{
-    color: gray;
-    font-weight: 500;
+.card-description {
+  color: gray;
+  font-weight: 500;
 }
 
-
-
-
-.card-user{
-    display: flex;
-    align-items: center;
-    height: 32px;
-    gap: 12px;
+.card-user {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  gap: 12px;
 }
-.card-user img{
-    height: 100%;
+.card-user img {
+  height: 100%;
 }
-.user-name{
-    font-weight: bold;
-} 
+.user-name {
+  font-weight: bold;
+}
 
-a {
-    text-decoration: none;
+.card-text a {
+  text-decoration: none;
+  color: black;
+}
+.card-text a:hover {
+  color: hsl(47, 88%, 63%);
 }
