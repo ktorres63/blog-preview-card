@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/ktorres63/blog-preview-card.git)
-- Live Site URL: [](https://ktorres63.github.io/blog-preview-card/)
+- Solution URL: (https://github.com/ktorres63/blog-preview-card.git)
+- Live Site URL:(https://ktorres63.github.io/blog-preview-card/)
 
 ## My process
 
